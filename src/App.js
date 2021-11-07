@@ -14,8 +14,7 @@ import Appointment from './Pages/Appointment/Appointment';
 function App() {
   return (
     <div className="App">
-      <h1>Hello</h1>
-      {/* <Router>
+      <Router>
       <Switch>
           <Route path="/appointment">
             <Appointment />
@@ -27,7 +26,7 @@ function App() {
             <Home />
           </Route>
         </Switch>
-      </Router> */}
+      </Router>
       
     </div>
   );
